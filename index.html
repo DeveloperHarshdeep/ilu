@@ -122,7 +122,7 @@
 <body>
   <div class="container" id="proposalContainer">
 <h1>Hey… Tumhare Liye Ek Choti Si Baat Hai 💖</h1>
-<img src="./gif/ilu.gif" alt="Love GIF" id="proposalGif">
+<img src="./ilu.gif" alt="Love GIF" id="proposalGif">
 <p>Mujhe bas poochna tha… Tum meri feelings ko haan bologi kya? 😇💞</p>
 
     <div class="buttons">
@@ -145,7 +145,7 @@
       if(answer === 'yes') {
         container.innerHTML = `
           <h1>Yay! 🎉</h1>
-          <img src="./gif/happy.gif" alt="Happy GIF">
+          <img src="./happy.gif" alt="Happy GIF">
           <p>Super! 💖 Ab hum saath me bahut mast moments share karenge! 😍</p>
         `;
         container.style.background = "linear-gradient(135deg, #a1c4fd, #c2e9fb)";
@@ -155,7 +155,7 @@
         if(noCount === 1) {
           container.innerHTML = `
             <h1>Arre soch ek baar aur 😇</h1>
-            <img src="./gif/think.gif" alt="Think GIF">
+            <img src="./think.gif" alt="Think GIF">
             <p>Thoda reconsider kar lo na… 💕</p>
             <div class="buttons">
               <button class="yes" onclick="handleResponse('yes')">Haan 💚</button>
@@ -165,7 +165,7 @@
         } else if(noCount === 2) {
           container.innerHTML = `
             <h1>Pls maan jao na yaar 😢</h1>
-            <img src="./gif/plead.gif" alt="Plead GIF">
+            <img src="./plead.gif" alt="Plead GIF">
             <p>Sach me bahut pasand karta hu tumhe, ek baar haan bol do! 💖</p>
             <div class="buttons">
               <button class="yes" onclick="handleResponse('yes')">Haan 💚</button>
@@ -175,7 +175,7 @@
         } else if(noCount >= 3) {
           container.innerHTML = `
             <h1>Baby, maan jao yaar ❤️</h1>
-            <img src="./gif/crying.gif" alt="Final GIF">
+            <img src="./crying.gif" alt="Final GIF">
             <p>Kitna bhaav khaugi please… 😇 Bas haan bol do 💖</p>
             <div class="buttons">
               <button class="yes" onclick="handleResponse('yes')">Haan 💚</button>
